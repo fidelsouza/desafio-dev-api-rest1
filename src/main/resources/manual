@@ -1,0 +1,10 @@
+Para inicializar a aplicação deve ser criado um banco Postgres com o nome Dock. Com as configurações que estão no application.properties. 
+O JPA ficará encarregado de criar as tabelas.
+
+Deve ser instalado lombok.
+
+Poderá ser rodado o seguinte script para criação de um "Person" no entanto também pode ser criado via chamada da API.
+
+INSERT INTO public.person(
+	id, birth_date, cpf, name)
+	VALUES ( 1,'2000-12-12', '04313064184', 'Joao Pereira');
