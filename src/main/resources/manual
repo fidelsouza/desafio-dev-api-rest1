@@ -3,7 +3,7 @@ O JPA ficará encarregado de criar as tabelas.
 
 Deve ser instalado lombok.
 
-Poderá ser rodado o seguinte script para criação de um "Person" no entanto também pode ser criado via chamada da API.
+Poderá ser rodado o seguinte script(start.sql) para criação de um "Person" no entanto também pode ser criado via chamada da API.
 
 INSERT INTO public.person(
 	id, birth_date, cpf, name)
